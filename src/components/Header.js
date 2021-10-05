@@ -6,7 +6,7 @@ function Header() {
     <Nav>
       <Logo src="/images/logo.svg" />
       <NavMenu>
-        <a>
+        <a href="/">
           <img src="/images/home-icon.svg"></img>
           <span>HOME</span>
         </a>
@@ -62,6 +62,8 @@ const NavMenu = styled.div`
     align-items: center;
     padding: 0 12px;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 
     img {
       height: 20px;

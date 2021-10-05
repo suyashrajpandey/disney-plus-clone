@@ -49,13 +49,13 @@ const Background = styled.div`
   left: 0;
   bottom: 0;
   right: 0;
-  z-index:-1;
-  opacity:0.8;
+  z-index: -1;
+  opacity: 0.8;
 
-  img{
-    width:100%;
-    height:100%
-    object-fit:cover;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 `;
 
@@ -64,6 +64,7 @@ const ImageTitle = styled.div`
   width:35vw;
   min-height:170px;
   min-width: 200px;
+  margin-top:16px;
 
   img{
     width:100%
@@ -136,4 +137,5 @@ const Description = styled.div`
   font-size: 20px;
   margin-top: 16px;
   line-height: 1.4;
+  max-width: 760px;
 `;
